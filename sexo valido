@@ -1,0 +1,27 @@
+Algoritmo "SEXO valido"
+
+Var
+
+   sexo1 : caracter
+   loop : inteiro
+Inicio
+   loop <- 2
+   enquanto (loop <> 1) faca
+      escreval("=====QUAL=SEU=SEXO=====")
+      escreval("escreva na tela o seu sexo?")
+      leia(sexo1)
+      se (sexo1 = "m") então
+         loop <- 1
+         escreval("SEXO : MASCULINO")
+         escreval("SEXO VALIDO")
+      senao
+         se (sexo1 = "f") entao
+            loop <- 1
+            escreval("SEXO : FEMININO")
+            escreval("SEXO VALIDO")
+         senao
+            escreval ("SEXO INVALIDO")
+         fimse
+      fimse
+   fimenquanto
+Fimalgoritmo
