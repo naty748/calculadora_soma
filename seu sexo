@@ -1,0 +1,10 @@
+print("=====QUAL=SEU=SEXO=====")
+sexo1 = str(input("escreva na tela o seu sexo?"))
+if sexo1 == "m":
+  print("SEXO : MASCULINO")
+  print("SEXO VALIDO")
+elif sexo1 == "f":
+  print("SEXO : FEMININO")
+  print("SEXO VALIDO")
+else:
+  print("SEXO INVALIDO")
